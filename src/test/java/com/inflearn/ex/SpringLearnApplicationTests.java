@@ -1,4 +1,4 @@
-package com.inflearn.ex.Springlearn;
+package com.inflearn.ex;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
