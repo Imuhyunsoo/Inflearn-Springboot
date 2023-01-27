@@ -1,12 +1,10 @@
 package com.inflearn.ex.repository;
 
-import com.inflearn.ex.controller.domain.Member;
-import org.assertj.core.api.Assertions;
+import com.inflearn.ex.domain.Member;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
-import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.*;
 

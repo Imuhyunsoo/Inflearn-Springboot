@@ -1,6 +1,6 @@
 package com.inflearn.ex.repository;
 
-import com.inflearn.ex.controller.domain.Member;
+import com.inflearn.ex.domain.Member;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.inflearn.ex.controller.domain;
+package com.inflearn.ex.domain;
 
 public class Member {
 

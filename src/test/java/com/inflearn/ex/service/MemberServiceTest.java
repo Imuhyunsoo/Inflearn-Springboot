@@ -1,6 +1,6 @@
 package com.inflearn.ex.service;
 
-import com.inflearn.ex.controller.domain.Member;
+import com.inflearn.ex.domain.Member;
 import com.inflearn.ex.repository.MemoryMemberRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
