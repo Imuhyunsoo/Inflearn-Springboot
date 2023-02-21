@@ -1,6 +1,7 @@
 package com.inflearn.ex;
 
 import com.inflearn.ex.repository.JdbcMemberRepository;
+import com.inflearn.ex.repository.JdbcTemplateMemberRepository;
 import com.inflearn.ex.repository.MemberRepository;
 import com.inflearn.ex.service.MemberService;
 import org.springframework.context.annotation.Bean;
@@ -25,6 +26,7 @@ public class SpringConfig {
     @Bean
     public MemberRepository memberRepository() {
         // return new MemoryMemberRepository();
-        return new JdbcMemberRepository(dataSource);
+        // return new JdbcMemberRepository(dataSource);
+        return new JdbcTemplateMemberRepository(dataSource);
     }
 }
