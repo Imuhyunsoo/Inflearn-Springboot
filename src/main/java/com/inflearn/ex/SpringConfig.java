@@ -1,5 +1,6 @@
 package com.inflearn.ex;
 
+import com.inflearn.ex.aop.TimeTraceAop;
 import com.inflearn.ex.repository.MemberRepository;
 import com.inflearn.ex.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,6 +39,11 @@ public class SpringConfig {
     public MemberService memberService() {
         return new MemberService(memberRepository);
     }
+
+    /* @Bean
+    public TimeTraceAop timeTraceAop() {
+        return new TimeTraceAop();
+    } */
 
     /* @Bean
     public MemberRepository memberRepository() {
